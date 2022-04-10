@@ -8,9 +8,11 @@ specifiers:
   eslint: ^8.12.0
   nuxt-windicss: ^2.2.8
   nuxt3: latest
+  particles.vue3: ^1.43.1
   typescript: ^4.6.3
   vite: ^2.9.1
   vue: ^3.2.31
+  vue-glitched-writer: ^1.2.2
   windicss-analysis: ^0.3.5
 
 devDependencies:
@@ -21,9 +23,11 @@ devDependencies:
   eslint: 8.12.0
   nuxt-windicss: 2.2.8_vite@2.9.1
   nuxt3: 3.0.0-27491748.3186841_vite@2.9.1
+  particles.vue3: 1.43.1_vue@3.2.31
   typescript: 4.6.3
   vite: 2.9.1
   vue: 3.2.31
+  vue-glitched-writer: 1.2.2_vue@3.2.31
   windicss-analysis: 0.3.5
 
 packages:
@@ -1809,6 +1813,11 @@ packages:
     resolution: {integrity: sha512-RyZrFi6PNpBFbIaQjXDlFIhFVqV42QeKSZX1yQIl6ihImq6vcHNGMtqQ/QzY3RMPuYSkvsRwtnt5M9NeYxKt0g==}
     dev: true
 
+  /core-js/3.21.1:
+    resolution: {integrity: sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==}
+    requiresBuild: true
+    dev: true
+
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
@@ -3299,6 +3308,10 @@ packages:
     dependencies:
       mkdirp: 0.5.6
       tar: 4.4.19
+    dev: true
+
+  /glitched-writer/2.0.29:
+    resolution: {integrity: sha512-ItmmiFTSKVIbs/ngTLAszsu2czKYXYar54GgJcST5U6BH7sAaivG3fgDJFDIgNaau7rGadV5bLu3QThd5iAC8w==}
     dev: true
 
   /glob-parent/5.1.2:
@@ -4839,6 +4852,17 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
+  /particles.vue3/1.43.1_vue@3.2.31:
+    resolution: {integrity: sha512-3w/0If0aQiuZvbV+n1EQDJVial+AiILeOqlQsXZ+EuHmfuapsjYTs/feBvl+rFurFqK90vgHwY5mSo/3TG6phA==}
+    peerDependencies:
+      vue: '>=3'
+    dependencies:
+      core-js: 3.21.1
+      tsparticles: 1.43.1
+      vue: 3.2.31
+      vue-class-component: 8.0.0-rc.1_vue@3.2.31
+    dev: true
+
   /path-exists/3.0.0:
     resolution: {integrity: sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=}
     engines: {node: '>=4'}
@@ -6028,6 +6052,11 @@ packages:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
+  /tsparticles/1.43.1:
+    resolution: {integrity: sha512-6EuHncwqzoyTlUxc11YH8LVlwVUgpYaZD0yMOeA2OvRqFZ9VQV8EjjQ6ZfXt6pfGA1ObPwU929jveFatxwTQkg==}
+    requiresBuild: true
+    dev: true
+
   /tsutils/3.21.0_typescript@4.6.3:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
@@ -6413,6 +6442,29 @@ packages:
       bundle-runner: 0.0.1
     dev: true
 
+  /vue-class-component/8.0.0-rc.1_vue@3.2.31:
+    resolution: {integrity: sha512-w1nMzsT/UdbDAXKqhwTmSoyuJzUXKrxLE77PCFVuC6syr8acdFDAq116xgvZh9UCuV0h+rlCtxXolr3Hi3HyPQ==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.2.31
+    dev: true
+
+  /vue-demi/0.11.4_vue@3.2.31:
+    resolution: {integrity: sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      vue: ^3.0.0-0 || ^2.6.0
+      '@vue/composition-api': ^1.0.0-rc.1
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      vue: 3.2.31
+    dev: true
+
   /vue-demi/0.12.5_vue@3.2.31:
     resolution: {integrity: sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==}
     engines: {node: '>=12'}
@@ -6444,6 +6496,21 @@ packages:
       semver: 7.3.6
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /vue-glitched-writer/1.2.2_vue@3.2.31:
+    resolution: {integrity: sha512-gZkJadoABPqAf2WI5EBvf8HQhDMdGD4DX7KzRHx/J/lDqhLcuxt0Xi8BRv0MEgk7f+vOyz6NOCHSw3pVTgkRpA==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^2.0.0 || >=3.0.0
+      '@vue/composition-api': ^1.0.0-rc.1
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      glitched-writer: 2.0.29
+      vue: 3.2.31
+      vue-demi: 0.11.4_vue@3.2.31
     dev: true
 
   /vue-router/4.0.14_vue@3.2.31:

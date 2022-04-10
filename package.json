@@ -1,11 +1,11 @@
 {
-  "name": "nuxt3-template",
+  "name": "stellar",
   "version": "1.0.0",
   "private": true,
-  "description": "My own Nuxt 3 template for my future projects",
+  "description": "My personal website",
   "license": "MIT",
   "author": "Gusbell (https://www.gusbell.tech)",
-  "repository": "https://github.com/Gusb3ll/nuxt3-template",
+  "repository": "https://github.com/Gusb3ll/Stellar",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -20,9 +20,11 @@
     "eslint": "^8.12.0",
     "nuxt-windicss": "^2.2.8",
     "nuxt3": "latest",
+    "particles.vue3": "^1.43.1",
     "typescript": "^4.6.3",
     "vite": "^2.9.1",
     "vue": "^3.2.31",
+    "vue-glitched-writer": "^1.2.2",
     "windicss-analysis": "^0.3.5"
   }
 }
