@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    if: github.actor != 'dependabot[bot]'
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm 🚀
+        uses: pnpm/action-setup@v2.2.1
+        with:
+          version: 6.20.3
+
+      - name: Setup node 🏗
+        uses: actions/setup-node@v3.1.0
+        with:
+          node-version: 16
+          check-latest: true
+          cache: pnpm
+
+      - name: Install dependencies 👨🏻‍💻
+        run: pnpm install --frozen-lockfile
+
+      - name: Build ⚒️
+        run: pnpm build
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    if: github.actor != 'dependabot[bot]'
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup pnpm 🚀
+        uses: pnpm/action-setup@v2.2.1
+        with:
+          version: 6.20.3
+
+      - name: Setup node 🏗
+        uses: actions/setup-node@v3.1.0
+        with:
+          node-version: 16
+          check-latest: true
+          cache: pnpm
+
+      - name: Install dependencies 👨🏻‍💻
+        run: pnpm install --frozen-lockfile
+
+      - name: Run linter 👀
+        run: pnpm lint
