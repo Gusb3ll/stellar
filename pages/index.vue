@@ -55,7 +55,7 @@ onMounted(() => {
 
 <template>
   <div id="index_container">
-    <particle />
+    <Particle />
     <div class="flex h-screen">
       <div class="m-auto">
         <div class="flex flex-col gap-8">
