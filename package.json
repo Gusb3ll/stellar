@@ -10,8 +10,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "lint": "eslint .",
-    "vercel-build": "pnpm add -g unenv"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.20.2",
@@ -19,7 +18,7 @@
     "@vueuse/nuxt": "^8.2.5",
     "animejs": "^3.2.1",
     "eslint": "^8.13.0",
-    "nuxt-windicss": "^2.2.8",
+    "nuxt-windicss": "^2.2.10",
     "nuxt3": "latest",
     "particles.vue3": "^1.43.1",
     "typescript": "^4.6.3",
