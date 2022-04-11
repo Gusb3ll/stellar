@@ -22,6 +22,7 @@
     "nuxt3": "latest",
     "particles.vue3": "^1.43.1",
     "typescript": "^4.6.3",
+    "unenv": "^0.4.6",
     "vite": "^2.9.1",
     "vue": "^3.2.31",
     "vue-glitched-writer": "^1.2.2",
