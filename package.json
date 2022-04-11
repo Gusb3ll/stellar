@@ -26,5 +26,8 @@
     "vue": "^3.2.31",
     "vue-glitched-writer": "^1.2.2",
     "windicss-analysis": "^0.3.5"
+  },
+  "dependencies": {
+    "unenv": "^0.4.6"
   }
 }
