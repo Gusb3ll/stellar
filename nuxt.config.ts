@@ -1,7 +1,6 @@
 import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
-  ssr: false,
   meta: {
     title: 'Gusbell | Kitpipat Jaritwong',
     htmlAttrs: {
