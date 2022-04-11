@@ -11,7 +11,7 @@
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
     "lint": "eslint .",
-    "vercel-build": "pnpm global add unenv"
+    "vercel-build": "pnpm add -g unenv"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.20.2",
