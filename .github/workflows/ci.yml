@@ -11,56 +11,76 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
-    if: github.actor != 'dependabot[bot]'
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [16]
+
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@master
-        with:
-          fetch-depth: 0
-
-      - name: Setup pnpm 🚀
-        uses: pnpm/action-setup@v2.2.1
-        with:
-          version: 6.20.3
 
       - name: Setup node 🏗
         uses: actions/setup-node@v3.1.0
         with:
-          node-version: 16
+          node-version: ${{ matrix.node }}
           check-latest: true
-          cache: pnpm
+
+      - name: Get yarn cache directory path 🛠
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2.1.7
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install dependencies 👨🏻‍💻
-        run: pnpm install --frozen-lockfile
+        run: yarn
 
       - name: Build ⚒️
         run: pnpm build
 
   lint:
     name: Lint
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
-    if: github.actor != 'dependabot[bot]'
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [16]
+
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@master
 
-      - name: Setup pnpm 🚀
-        uses: pnpm/action-setup@v2.2.1
-        with:
-          version: 6.20.3
-
       - name: Setup node 🏗
         uses: actions/setup-node@v3.1.0
         with:
-          node-version: 16
+          node-version: ${{ matrix.node }}
           check-latest: true
-          cache: pnpm
+
+      - name: Get yarn cache directory path 🛠
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2.1.7
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install dependencies 👨🏻‍💻
-        run: pnpm install --frozen-lockfile
+        run: yarn
 
       - name: Run linter 👀
-        run: pnpm lint
+        run: yarn lint
