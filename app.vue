@@ -11,7 +11,7 @@ onMounted(() => {
 <template>
   <div v-if="!loading">
     <ClientOnly>
-      <slot />
+      <NuxtPage />
     </ClientOnly>
   </div>
 </template>

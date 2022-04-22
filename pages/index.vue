@@ -1,7 +1,6 @@
 <script setup>
 import { Icon } from '@iconify/vue'
 import GlitchedWriter from 'vue-glitched-writer'
-import Particle from '../components/particle.vue'
 
 const { $anime } = useNuxtApp()
 const style = { fontSize: '2em', color: 'white' }
@@ -35,7 +34,7 @@ definePageMeta({
 
 onMounted(() => {
   $anime({
-    targets: '#index_container',
+    targets: '#index__container',
     scale: [0, 1],
     opacity: [0, 1],
     duration: 1000,
@@ -54,8 +53,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="index_container">
-    <Particle />
+  <div id="index__container">
     <div class="flex h-screen">
       <div class="m-auto">
         <div class="flex flex-col gap-8">

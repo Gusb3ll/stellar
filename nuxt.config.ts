@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
   meta: {
@@ -28,8 +28,6 @@ export default defineNuxtConfig({
   components: true,
 
   css: ['~/assets/css/global.css'],
-
-  plugins: [],
 
   modules: [],
 
