@@ -15,11 +15,6 @@
     "prepare": "husky install",
     "postinstall": "husky install"
   },
-  "lint-staged": {
-    "**/*.{ts,vue,css}": [
-      "yarn lintfix"
-    ]
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.20.6",
     "@commitlint/cli": "^16.2.3",
@@ -37,5 +32,10 @@
     "vue": "^3.2.33",
     "vue-glitched-writer": "^1.2.2",
     "windicss-analysis": "^0.3.5"
+  },
+  "lint-staged": {
+    "**/*.{ts,vue,css}": [
+      "yarn lintfix"
+    ]
   }
 }
