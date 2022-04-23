@@ -34,7 +34,7 @@
     "windicss-analysis": "^0.3.5"
   },
   "lint-staged": {
-    "**/*.{ts,vue,css}": [
+    "**/*.{ts,vue}": [
       "yarn lintfix"
     ]
   }
