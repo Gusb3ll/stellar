@@ -28,3 +28,12 @@ html, body {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.575);
 }
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}

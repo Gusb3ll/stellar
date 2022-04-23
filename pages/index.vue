@@ -34,19 +34,21 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex h-screen">
-    <div id="index__container" class="m-auto">
-      <div class="flex flex-col gap-8">
-        <h1 class="md:text-8xl text-6xl text-white text-center font-normal tracking-wider select-none">
-          <glitched-writer text="Gusbell" appear />
-        </h1>
-        <h1 class="md:text-2xl text-md text-white text-center font-light tracking-wide select-none">
-          <glitched-writer text="developer / designer / arcade player / anime enjoyer" appear />
-        </h1>
-        <div id="social__container" class="flex flex-row justify-center md:gap-16 gap-8">
-          <NuxtLink v-for="(i, index) in links" :key="index" :to="i.to" target="_blank">
-            <Icon :icon="`mdi:${i.icon}`" :style="{ fontSize: '2em', color: 'white' }" />
-          </NuxtLink>
+  <div>
+    <div class="flex h-screen">
+      <div id="index__container" class="m-auto">
+        <div class="flex flex-col gap-8">
+          <h1 class="md:text-8xl text-6xl text-white text-center font-normal tracking-wider select-none">
+            <glitched-writer text="Gusbell" appear />
+          </h1>
+          <h1 class="md:text-2xl text-md text-white text-center font-light tracking-wide select-none">
+            <glitched-writer text="developer / designer / arcade player / anime enjoyer" appear />
+          </h1>
+          <div id="social__container" class="flex flex-row justify-center md:gap-16 gap-8">
+            <NuxtLink v-for="(i, index) in links" :key="index" :to="i.to" target="_blank">
+              <Icon :icon="`mdi:${i.icon}`" :style="{ fontSize: '2em', color: 'white' }" />
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
