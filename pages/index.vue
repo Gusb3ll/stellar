@@ -46,8 +46,13 @@ onMounted(() => {
           </h1>
           <div id="social__container" class="flex flex-row justify-center md:gap-16 gap-8">
             <NuxtLink v-for="(i, index) in links" :key="index" :to="i.to" target="_blank">
-              <Icon :icon="`mdi:${i.icon}`" :style="{ fontSize: '2em', color: 'white' }" />
+              <Icon :icon="`mdi:${i.icon}`" :style="{ fontSize: '2em', color: 'white' }" class="hover:animate-pulse transition-all" />
             </NuxtLink>
+          </div>
+          <div id="social__container" class="flex justify-center mt-2">
+            <a href="mailto:Kitpipat.0647@gmail.com" target="_blank">
+              <Icon icon="mdi:email-open-multiple-outline" :style="{ fontSize: '1.75em', color: 'white' }" class="hover:animate-pulse transition-all" />
+            </a>
           </div>
         </div>
       </div>
