@@ -5,7 +5,9 @@ import GlitchedWriter from 'vue-glitched-writer'
 
 const projects = [
   { title: 'Tsuki', desc: 'Manga uncensoring scripts using DeepCreamPy & HentAI', to: 'https://github.com/Gusb3ll/Tsuki', to2: '' },
-  { title: 'oturne', desc: 'Next generation tournament manager for rhythm game, osu!', to: '', to2: '' },
+  { title: 'oturne (Private)', desc: 'Next generation tournament manager for rhythm game, osu!', to: '', to2: '' },
+  { title: 'konigiri (Private)', desc: 'Backend for oturne', to: '', to2: '' },
+  { title: 'thailand-public-train-data', desc: 'Thailand public train transportation dataset (Bangkok area)', to: 'https://github.com/Gusb3ll/thailand-public-train-data', to2: 'https://kaggle.com/datasets/gusbell/thailand-public-train-data-bangkok-area' },
   { title: 'oturna', desc: 'A tournament manager for rhythm game, osu!', to: 'https://www.github.com/varkaria/oturna', to2: '' },
   { title: 'mempool', desc: 'Blockchain explorer for monitoring memorypool of Bitcoin', to: 'https://github.com/mempool/mempool', to2: 'https://mempool.space/th' },
   { title: 'keqing-stats-prediction', desc: 'Status prediction of a character in Genshin Impact', to: 'https://github.com/Gusb3ll/keqing-stats-prediction/', to2: '' },
