@@ -1285,11 +1285,6 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-animejs@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/animejs/-/animejs-3.2.1.tgz#de9fe2e792f44a777a7fdf6ae160e26604b0cdda"
-  integrity sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==
-
 ansi-escapes@^4.2.1, ansi-escapes@^4.3.0:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
@@ -3307,11 +3302,6 @@ gittar@^0.1.1:
   dependencies:
     mkdirp "^0.5.1"
     tar "^4.4.1"
-
-glitched-writer@^2.0.29:
-  version "2.0.29"
-  resolved "https://registry.yarnpkg.com/glitched-writer/-/glitched-writer-2.0.29.tgz#36598b95e0aaa1148b5f6094e5be758f1b35d0ba"
-  integrity sha512-ItmmiFTSKVIbs/ngTLAszsu2czKYXYar54GgJcST5U6BH7sAaivG3fgDJFDIgNaau7rGadV5bLu3QThd5iAC8w==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
@@ -6825,11 +6815,6 @@ vue-demi@*:
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.5.tgz#8eeed566a7d86eb090209a11723f887d28aeb2d1"
   integrity sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==
 
-vue-demi@^0.11.2:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.11.4.tgz#6101992fe4724cf5634018a16e953f3052e94e2a"
-  integrity sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==
-
 vue-eslint-parser@^8.0.1:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz#5d31129a1b3dd89c0069ca0a1c88f970c360bd0d"
@@ -6842,14 +6827,6 @@ vue-eslint-parser@^8.0.1:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^7.3.5"
-
-vue-glitched-writer@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/vue-glitched-writer/-/vue-glitched-writer-1.2.2.tgz#a2b78797aa39fe42a1a658f7d3f86ae1d183d27e"
-  integrity sha512-gZkJadoABPqAf2WI5EBvf8HQhDMdGD4DX7KzRHx/J/lDqhLcuxt0Xi8BRv0MEgk7f+vOyz6NOCHSw3pVTgkRpA==
-  dependencies:
-    glitched-writer "^2.0.29"
-    vue-demi "^0.11.2"
 
 vue-router@^4.0.14:
   version "4.0.14"

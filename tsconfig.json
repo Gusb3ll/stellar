@@ -4,6 +4,5 @@
     "types": [
       "nuxt-windicss"
     ],
-    "allowJs": true
   }
 }
