@@ -2,12 +2,11 @@
   <div class="h-screen p-6">
     <div class="flex h-full w-full border">
       <div class="m-auto">
-        <img src="~/assets/title.png" alt="Gusbell" class="xl:w-186 lg:w-164 md:w-128 w-86 select-none">
+        <h1 class="text-3xl text-white" />
       </div>
-      <AppLayoutSocialBar />
       <NuxtLink to="/projects">
         <div class="sm:block hidden">
-          <div class="absolute top-[48%] -right-8 transform rotate-90">
+          <div class="absolute top-[47.5%] -left-8 transform -rotate-90">
             <h1 class="text-xl text-white uppercase font-bold tracking-8px">
               Projects
             </h1>
