@@ -21,7 +21,7 @@ const links = [
     </div>
   </div>
   <div class="sm:hidden block">
-    <div class="absolute top-[58%] left-[24%]">
+    <div class="absolute top-[62%] left-[24%]">
       <div class="flex flex-row gap-8">
         <NuxtLink v-for="(i, index) in links" :key="index" :to="i.to" target="_blank">
           <Icon :icon="`mdi:${i.icon}`" class="text-xl text-white hover:opacity-50 duration-500 transition-opacity" />
