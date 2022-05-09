@@ -22,7 +22,7 @@
     "@iconify/vue": "^3.2.1",
     "@vueuse/nuxt": "^8.4.2",
     "eslint": "^8.15.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
     "nuxt": "^3.0.0-rc.2",
     "nuxt-windicss": "^2.2.11",
