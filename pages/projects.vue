@@ -2,7 +2,9 @@
   <div class="h-screen p-6">
     <div class="flex h-full w-full border">
       <div class="m-auto">
-        <h1 class="text-3xl text-white" />
+        <h1 class="text-3xl text-white font-thin uppercase">
+          In progress
+        </h1>
       </div>
       <NuxtLink to="/">
         <div class="sm:block hidden">
