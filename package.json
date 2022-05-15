@@ -27,7 +27,7 @@
     "nuxt": "^3.0.0-rc.3",
     "nuxt-windicss": "^2.2.11",
     "typescript": "^4.6.4",
-    "vite": "^2.9.8",
+    "vite": "^2.9.9",
     "vue": "^3.2.33",
     "windicss-analysis": "^0.3.5"
   },
