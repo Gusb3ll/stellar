@@ -19,6 +19,12 @@ export default defineNuxtConfig({
       { hid: 'og:description ', name: 'og:description', content: 'Kitpipat Jaritwong\'s website' },
       { hid: 'description', name: 'description', content: 'Gusbell | Kitpipat Jaritwong\'s website' },
       { hid: 'og:image', name: 'og:image', content: '/og_img.png' },
+
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:creator', name: 'twitter:creator', content: '@Gusb3ll' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'Gusbell | Kitpipat Jaritwong' },
+      { hid: 'twitter:description', name: 'twitter:description', content: 'Gusbell | Kitpipat Jaritwong\'s website' },
+      { hid: 'twitter:image', name: 'twitter:image', content: '/og_img.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
