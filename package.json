@@ -20,7 +20,7 @@
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@iconify/vue": "^3.2.1",
-    "@vueuse/nuxt": "^8.4.2",
+    "@vueuse/nuxt": "^8.5.0",
     "eslint": "^8.15.0",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
