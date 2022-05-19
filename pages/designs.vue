@@ -1,9 +1,9 @@
 <template>
   <div class="h-screen p-6">
     <div class="flex h-full w-full border">
-      <div class="m-auto">
-        <h1 class="text-3xl text-white font-thin uppercase">
-          In progress
+      <div class="mx-auto">
+        <h1 class="my-6 text-3xl text-white text-center font-thin uppercase">
+          Designs
         </h1>
       </div>
       <NuxtLink to="/projects">
@@ -14,7 +14,6 @@
             </h1>
           </div>
         </div>
-        <AppLayoutTopNav title="projects" />
       </NuxtLink>
     </div>
   </div>
