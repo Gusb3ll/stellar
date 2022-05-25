@@ -16,7 +16,7 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.23.0",
+    "@antfu/eslint-config": "^0.24.2",
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@iconify/vue": "^3.2.1",
