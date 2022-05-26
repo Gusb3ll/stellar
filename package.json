@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.23.0",
-    "@commitlint/cli": "^16.2.4",
+    "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^16.2.4",
     "@iconify/vue": "^3.2.1",
     "@vueuse/nuxt": "^8.4.2",
