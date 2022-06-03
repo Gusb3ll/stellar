@@ -12,4 +12,8 @@ export default defineConfig({
   plugins: [
     require('windicss/plugin/line-clamp'),
   ],
+  css: [
+    'virtual:windi.css',
+    'virtual:windi-devtools',
+  ],
 })

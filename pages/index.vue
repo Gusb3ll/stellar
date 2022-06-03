@@ -1,20 +1,40 @@
+<script setup>
+import GlitchedWriter from 'vue-glitched-writer'
+
+const writer = GlitchedWriter
+
+const text = ['Gusbell', 'Kitpipat Jaritwong']
+const loading = ref(true)
+
+onMounted(() => {
+  setTimeout(() => {
+    loading.value = false
+  }, 500)
+})
+</script>
+
 <template>
-  <div class="h-screen p-6">
-    <div class="flex h-full w-full border">
-      <div class="m-auto">
-        <img src="~/assets/title.png" alt="Gusbell" width="1220" height="360" class="xl:w-186 lg:w-164 md:w-128 w-86 select-none">
-      </div>
-      <AppLayoutSocialBar />
-      <NuxtLink to="/projects">
-        <div class="sm:block hidden">
-          <div class="absolute top-[48%] -right-8 transform rotate-90">
-            <h1 class="text-xl text-white uppercase font-bold tracking-8px">
-              Projects
-            </h1>
-          </div>
-        </div>"
-        <AppLayoutBottomNav title="projects" />
-      </NuxtLink>
-    </div>
+  <div class="flex flex-col h-full">
+    <section id="header" class="flex min-h-screen justify-center">
+      <Transition name="fade">
+        <div v-if="!loading" class="flex flex-col justify-center items-center gap-8">
+          <h1 class="md:text-7xl text-4xl text-white tracking-wide uppercase select-none">
+            <writer :text="text" preset="nier" :queue="{ loop: true, interval: 5000 }" />
+          </h1>
+          <AppSocial />
+        </div>
+      </Transition>
+    </section>
   </div>
 </template>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

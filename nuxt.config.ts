@@ -38,12 +38,39 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/global.css'],
 
-  modules: [],
+  plugins: [],
+
+  modules: [
+    '@dansmaculotte/nuxt-security',
+  ],
 
   buildModules: [
+    '@nuxt-modules/compression',
     'nuxt-windicss',
     '@vueuse/nuxt',
   ],
+
+  security: {
+    hsts: {
+      maxAge: 15552000,
+      preload: true,
+    },
+    referrer: 'same-origin',
+    csp: {
+      directives: {
+        defaultSrc: ['\'self\''],
+        scriptSrc: ['\'self\''],
+        objectSrc: ['\'self\''],
+      },
+      reportOnly: false,
+    },
+    securityFile: {
+      contacts: [
+        'https://www.gusbell.tech',
+      ],
+      preferredLanguages: ['th', 'en'],
+    },
+  },
 
   typescript: { shim: false },
 

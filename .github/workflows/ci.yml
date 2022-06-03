@@ -9,44 +9,6 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [16]
-
-    steps:
-      - name: Checkout 🛎
-        uses: actions/checkout@master
-
-      - name: Setup node 🏗
-        uses: actions/setup-node@v3.2.0
-        with:
-          node-version: ${{ matrix.node }}
-          check-latest: true
-
-      - name: Get yarn cache directory path 🛠
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v3.0.3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Install dependencies 👨🏻‍💻
-        run: yarn
-
-      - name: Build ⚒️
-        run: yarn build
-
   lint:
     name: Lint
     runs-on: ${{ matrix.os }}
@@ -64,23 +26,72 @@ jobs:
         uses: actions/setup-node@v3.2.0
         with:
           node-version: ${{ matrix.node }}
-          check-latest: true
-
-      - name: Get yarn cache directory path 🛠
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v3.0.3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          cache: yarn
 
       - name: Install dependencies 👨🏻‍💻
-        run: yarn
+        run: yarn --immutable
 
       - name: Run linter 👀
         run: yarn lint
+
+  build:
+    name: Build
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [16]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node 🏗
+        uses: actions/setup-node@v3.2.0
+        with:
+          node-version: ${{ matrix.node }}
+          cache: yarn
+
+      - name: Install dependencies 👨🏻‍💻
+        run: yarn --immutable
+
+      - name: Build ⚒️
+        run: yarn build
+
+  lighthouse:
+    name: Run lighthouse audit
+    needs:
+      - build-client
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [16]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup node 🏗
+        uses: actions/setup-node@v3.2.0
+        with:
+          node-version: ${{ matrix.node }}
+          cache: yarn
+
+      - name: Install dependencies 👨🏻‍💻
+        run: yarn --immutable
+
+      - name: Run lighthouse audit 💡
+        run: yarn lhci:desktop
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
+      - name: Collect lighthouse artifacts 📦
+        uses: actions/upload-artifact@v3
+        with:
+          name: lighthouse-results
+          path: .lighthouseci
