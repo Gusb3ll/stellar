@@ -62,7 +62,7 @@ jobs:
   lighthouse:
     name: Run lighthouse audit
     needs:
-      - build-client
+      - build
     runs-on: ${{ matrix.os }}
 
     strategy:
