@@ -4,8 +4,8 @@
   "private": true,
   "packageManager": "yarn@4.0.0-rc.6",
   "description": "My personal website",
-  "license": "MIT",
   "author": "Gusbell (https://www.gusbell.tech)",
+  "license": "MIT",
   "repository": "https://github.com/Gusb3ll/Stellar",
   "scripts": {
     "dev": "nuxt dev",
