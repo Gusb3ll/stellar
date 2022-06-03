@@ -715,7 +715,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/vue@npm:^3.2.1":
+"@iconify/vue@npm:3.2.1":
   version: 3.2.1
   resolution: "@iconify/vue@npm:3.2.1"
   peerDependencies:
@@ -868,7 +868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt-modules/compression@npm:^0.1.0":
+"@nuxt-modules/compression@npm:0.1.0":
   version: 0.1.0
   resolution: "@nuxt-modules/compression@npm:0.1.0"
   checksum: 38ab4f13cbf2096a22af55f3ff9a50d9f7dcf60298715c308aca6271c59434fb1ad9879835b1af46efa0cba0bccac8260b02dc60fdde7d4ed2261e91c7f5e40e
@@ -1728,7 +1728,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^8.4.2":
+"@vueuse/nuxt@npm:8.4.2":
   version: 8.4.2
   resolution: "@vueuse/nuxt@npm:8.4.2"
   dependencies:
@@ -9877,10 +9877,10 @@ __metadata:
     "@commitlint/cli": "npm:17.0.2"
     "@commitlint/config-conventional": "npm:17.0.2"
     "@dansmaculotte/nuxt-security": "npm:0.0.5"
-    "@iconify/vue": "npm:^3.2.1"
+    "@iconify/vue": "npm:3.2.1"
     "@lhci/cli": "npm:0.9.0"
-    "@nuxt-modules/compression": "npm:^0.1.0"
-    "@vueuse/nuxt": "npm:^8.4.2"
+    "@nuxt-modules/compression": "npm:0.1.0"
+    "@vueuse/nuxt": "npm:8.4.2"
     eslint: "npm:8.16.0"
     helmet: "npm:5.1.0"
     husky: "npm:8.0.1"
@@ -9888,7 +9888,7 @@ __metadata:
     nuxt-windicss: "npm:2.2.11"
     typescript: "npm:4.7.2"
     vite: "npm:2.9.9"
-    vite-plugin-compression: "npm:^0.5.1"
+    vite-plugin-compression: "npm:0.5.1"
     vue: "npm:3.2.36"
     vue-glitched-writer: "npm:1.2.2"
   languageName: unknown
@@ -10921,7 +10921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-compression@npm:^0.5.1":
+"vite-plugin-compression@npm:0.5.1":
   version: 0.5.1
   resolution: "vite-plugin-compression@npm:0.5.1"
   dependencies:

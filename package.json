@@ -23,10 +23,10 @@
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
     "@dansmaculotte/nuxt-security": "0.0.5",
-    "@iconify/vue": "^3.2.1",
+    "@iconify/vue": "3.2.1",
     "@lhci/cli": "0.9.0",
-    "@nuxt-modules/compression": "^0.1.0",
-    "@vueuse/nuxt": "^8.4.2",
+    "@nuxt-modules/compression": "0.1.0",
+    "@vueuse/nuxt": "8.4.2",
     "eslint": "8.16.0",
     "helmet": "5.1.0",
     "husky": "8.0.1",
@@ -34,7 +34,7 @@
     "nuxt-windicss": "2.2.11",
     "typescript": "4.7.2",
     "vite": "2.9.9",
-    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-compression": "0.5.1",
     "vue": "3.2.36",
     "vue-glitched-writer": "1.2.2"
   }
