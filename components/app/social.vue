@@ -13,8 +13,8 @@ const links = [
 
 <template>
   <div class="flex flex-row md:gap-16 gap-10">
-    <NuxtLink v-for="(i, index) in links" :key="index" :to="i.to" target="_blank" :alt="i.icon">
-      <Icon :icon="`mdi:${i.icon}`" class="text-3xl text-white hover:opacity-50 duration-500 transition-opacity" />
+    <NuxtLink v-for="({ to, icon }, index) in links" :key="index" :to="to" :aria-label="icon" target="_blank">
+      <Icon :icon="`mdi:${icon}`" class="text-3xl text-white hover:opacity-50 duration-500 transition-opacity" />
     </NuxtLink>
   </div>
 </template>
