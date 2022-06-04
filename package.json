@@ -26,7 +26,7 @@
     "@iconify/vue": "3.2.1",
     "@lhci/cli": "0.9.0",
     "@nuxt-modules/compression": "0.1.0",
-    "@vueuse/nuxt": "8.4.2",
+    "@vueuse/nuxt": "8.6.0",
     "eslint": "8.16.0",
     "helmet": "5.1.0",
     "husky": "8.0.1",
