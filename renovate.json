@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base"
+      "github>danielroe/renovate"
   ],
   "automerge": true,
   "major": {

@@ -72,7 +72,7 @@ export default defineNuxtConfig({
     },
   },
 
-  typescript: { shim: false },
+  typescript: { strict: true, typeCheck: true },
 
   windicss: { analyze: true },
 })

@@ -12,6 +12,7 @@
     "build": "nuxt build",
     "preview": "nuxt preview",
     "generate": "nuxt generate",
+    "typecheck": "nuxt typecheck",
     "start": "node .output/server/index.mjs",
     "lint": "eslint . --fix",
     "prepare": "husky install",
