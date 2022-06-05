@@ -33,12 +33,12 @@ defineProps({
       </p>
     </div>
     <div class="mt-4 flex flex-row justify-end items-center gap-8 text-white">
-      <NuxtLink v-show="githubEnable" :to="githubUrl" target="_blank">
+      <a v-show="githubEnable" :href="githubUrl" target="_blank" aria-label="github-url">
         <Icon icon="mdi:github" :style="{ fontSize: '30px' }" />
-      </NuxtLink>
-      <NuxtLink v-show="websiteEnable" :to="websiteUrl" target="_blank">
+      </a>
+      <a v-show="websiteEnable" :href="websiteUrl" target="_blank" aria-label="website-url">
         <Icon icon="mdi:globe" :style="{ fontSize: '30px' }" />
-      </NuxtLink>
+      </a>
     </div>
   </div>
 </template>
