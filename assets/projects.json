@@ -49,10 +49,18 @@
   },
   {
     "title": "omise-nuxt3",
-    "description": "omise.js in nuxt 3",
+    "description": "omise.js integration with nuxt3",
     "githubEnable": true,
     "webisteEnable": true,
     "githubUrl": "https://github.com/Gusb3ll/omise-nuxt3",
     "websiteUrl": "https://omise.gusbell.tech"
+  },
+  {
+    "title": "arduino-coffeeMaker",
+    "description": "Coffee ☕",
+    "githubEnable": true,
+    "websiteEnable": false,
+    "githubUrl": "https://github.com/Gusb3ll/arduino-coffeeMaker/",
+    "websiteUrl": ""
   }
 ]
