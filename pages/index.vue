@@ -19,6 +19,9 @@ const designActive = ref(false)
           <writer :text="['Gusbell', 'Kitpipat Jaritwong']" preset="nier" :queue="{ loop: true, interval: 5000 }" appear />
         </h1>
         <AppSocial />
+        <a href="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ">
+          <img alt="วงแหวนเว็บ" width="32" height="32" src="https://webring.wonderful.software/webring.white.svg">
+        </a>
       </div>
     </section>
     <section id="projects" class="flex min-h-screen w-screen justify-center">
