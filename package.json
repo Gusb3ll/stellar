@@ -37,6 +37,7 @@
     "vite": "2.9.9",
     "vite-plugin-compression": "0.5.1",
     "vue": "3.2.36",
-    "vue-glitched-writer": "1.2.2"
+    "vue-glitched-writer": "1.2.2",
+    "vue-wow": "^1.2.0"
   }
 }

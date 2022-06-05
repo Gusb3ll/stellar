@@ -9847,6 +9847,7 @@ __metadata:
     vite-plugin-compression: "npm:0.5.1"
     vue: "npm:3.2.36"
     vue-glitched-writer: "npm:1.2.2"
+    vue-wow: "npm:^1.2.0"
   languageName: unknown
   linkType: soft
 
@@ -11098,6 +11099,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-wow@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "vue-wow@npm:1.2.0"
+  dependencies:
+    vue: "npm:^2.5.2"
+  checksum: 53bc3dc38d9eb6f6afeb830d29c7b2d988520d003b0c219906be10a77a88267c712d8d3a3285cd71e857a34ebe011dc82305914679578b9b593e4a63f53f2582
+  languageName: node
+  linkType: hard
+
 "vue@npm:3.2.36, vue@npm:^3.2.33":
   version: 3.2.36
   resolution: "vue@npm:3.2.36"
@@ -11108,6 +11118,13 @@ __metadata:
     "@vue/server-renderer": "npm:3.2.36"
     "@vue/shared": "npm:3.2.36"
   checksum: 21185d61e6b6de509a0d2b4f616a1ef5875834c3ac64387d10e1c25b6c94316084ae2c01924a29660b20bd7a3a04a154b90a728128850b84b7774ef203fb5b86
+  languageName: node
+  linkType: hard
+
+"vue@npm:^2.5.2":
+  version: 2.6.14
+  resolution: "vue@npm:2.6.14"
+  checksum: 2add3c486f75b5dac6f1017c32692485dcbe4f7fc84455a918a3c2de86e40bb307b8fc811e0171808dce674e0c9c5e334e284711114c0a195ff08f04a9c61dfe
   languageName: node
   linkType: hard
 
