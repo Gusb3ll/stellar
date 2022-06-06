@@ -30,9 +30,6 @@ html, body {
   background-color: rgba(0, 0, 0, 0.575);
 }
 
-.img_container {
-  @apply flex max-w-[30vw] h-64 justify-center items-center  border border-white border-opacity-30 rounded-xl
-}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 1s;
