@@ -1,3 +1,4 @@
 <template>
+  <AppLayoutNav />
   <NuxtPage />
 </template>
