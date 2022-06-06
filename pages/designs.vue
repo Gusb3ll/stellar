@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <div class="flex min-h-screen w-screen justify-center">
-    <div class="flex flex-col gap-8 mt-8">
+    <div class="flex flex-col gap-12 mt-8">
       <Transition name="fadeFast">
         <h1 v-if="designActive" class="md:text-5xl text-3xl text-white text-center tracking-wide uppercase select-none">
           <writer text="Designs" preset="nier" appear />
