@@ -13,9 +13,12 @@ onMounted(() => {
   <div class="flex min-h-screen w-screen justify-center">
     <div class="flex flex-col gap-8 mt-8">
       <Transition name="fadeFast">
-        <h1 v-if="profileActive" class="md:text-5xl text-3xl text-white text-center tracking-wide select-none">
-          <writer text="Hello 👋" appear />
-        </h1>
+        <div class="flex flex-col justify-center items-center gap-8">
+          <img src="~/assets/pfp.jpg" class="h-48 w-48 rounded-full">
+          <h1 v-if="profileActive" class="md:text-5xl text-3xl text-white text-center tracking-wide select-none">
+            <writer text="Hello 👋" preset="nier" appear />
+          </h1>
+        </div>
       </Transition>
       <Transition name="fade">
         <div v-show="profileActive" class="flex flex-col h-full w-full gap-8">
@@ -26,20 +29,6 @@ onMounted(() => {
               and I'm currently working as opensource fullstack developer. My main interest are minimal/furturistic design, so I'm working
               to improve myself on it.
             </p>
-          </div>
-          <h1 class="md:text-4xl text-2xl text-white text-center my-2">
-            Skills ⚛️
-          </h1>
-          <div class="grid h-full w-full grid-cols-3">
-            <h1 class="text-xl text-white text-center">
-              UX/UI Designing
-            </h1>
-            <h1 class="text-xl text-white text-center">
-              Fullstack development
-            </h1>
-            <h1 class="text-xl text-white text-center">
-              DevOps
-            </h1>
           </div>
         </div>
       </Transition>

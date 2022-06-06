@@ -1,5 +1,5 @@
 <script setup>
-const navItems = [{ name: 'Home', url: '/' }, { name: 'Profile', url: '/profile' }, { name: 'Projects', url: '/projects' }, { name: 'Designs', url: '/designs' }]
+const navItems = [{ name: 'Home', url: '/' }, { name: 'Profile', url: '/profile' }, { name: 'Projects', url: '/projects' }, { name: 'Designs', url: '/designs' }, { name: 'Works', url: '/works' }]
 </script>
 
 <template>
