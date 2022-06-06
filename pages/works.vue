@@ -20,14 +20,14 @@ onMounted(() => {
       <Transition name="fade">
         <div v-show="workActive" class="grid w-screen xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row gap-8 px-8">
           <a class="flex flex-col gap-2 border borer-white border-opacity-50 rounded-xl" href="https://www.omtht.xyz" target="_blank">
-            <img src="~/assets/works/omth22.webp" class="p-2" alt="">
-            <h1 class="text-xl text-white text-center px-4 pb-2">
+            <img src="~/assets/works/omth22.webp" class="p-2 rounded-xl" alt="">
+            <h1 class="sm:text-xl text-lg text-white text-center px-4 pb-2">
               osu!mania Thailand Tournamnet 2022
             </h1>
           </a>
           <a class="flex flex-col gap-2 border borer-white border-opacity-50 rounded-xl" href="https://osu.ppy.sh/community/forums/topics/1293390?n=1" target="_blank">
-            <img src="~/assets/works/omth21.webp" class="p-2" alt="">
-            <h1 class="text-xl text-white text-center px-4 pb-2">
+            <img src="~/assets/works/omth21.webp" class="p-2 rounded-xl" alt="">
+            <h1 class="sm:text-xl text-lg text-white text-center px-4 pb-2">
               osu!mania Thailand Tournamnet 2021
             </h1>
           </a>
