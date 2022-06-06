@@ -23,7 +23,7 @@ onMounted(() => {
             <img src="~/assets/designs/banner1.png" alt="">
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/behance.png" alt="">
+            <img src="~/assets/designs/tsuki.png" alt="">
           </div>
           <div class="img_container">
             <img src="~/assets/designs/git1.png" alt="">
@@ -36,6 +36,9 @@ onMounted(() => {
           </div>
           <div class="img_container">
             <img src="~/assets/designs/twit.png" alt="">
+          </div>
+          <div class="img_container">
+            <img src="~/assets/designs/behance.png" alt="">
           </div>
         </div>
       </Transition>

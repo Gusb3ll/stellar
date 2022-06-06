@@ -32,7 +32,7 @@ onMounted(() => {
           </h1>
           <div class="grid h-full w-full grid-cols-3">
             <h1 class="text-xl text-white text-center">
-              UI Designing
+              UX/UI Designing
             </h1>
             <h1 class="text-xl text-white text-center">
               Fullstack development
