@@ -9843,7 +9843,7 @@ __metadata:
     nuxt: "npm:3.0.0-rc.3"
     nuxt-windicss: "npm:2.4.2"
     typescript: "npm:4.7.3"
-    vite: "npm:2.9.10"
+    vite: "npm:2.9.12"
     vite-plugin-compression: "npm:0.5.1"
     vue: "npm:3.2.36"
     vue-glitched-writer: "npm:1.2.2"
@@ -10925,9 +10925,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.10":
-  version: 2.9.10
-  resolution: "vite@npm:2.9.10"
+"vite@npm:2.9.12":
+  version: 2.9.12
+  resolution: "vite@npm:2.9.12"
   dependencies:
     esbuild: "npm:^0.14.27"
     fsevents: "npm:~2.3.2"
@@ -10950,7 +10950,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: c4845ef670f0761bb8a7c5af866e85422da96b00e1303233a848aed0256c78f636430d741013db2bae579b94f6be2b5c78c9d3b343f4d73ea48940bf0852f4c7
+  checksum: eea19ba4a17879dc122ff324867f85197824d55e0c14068a7ea9b2ba621ed17c4e3368fea5bb20dbb42e9dc242a29ae3cc9829e1aceadd1682decc33a024e73c
   languageName: node
   linkType: hard
 
