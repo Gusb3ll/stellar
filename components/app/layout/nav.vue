@@ -5,7 +5,7 @@ const navItems = [{ name: 'Home', url: '/' }, { name: 'Profile', url: '/profile'
 <template>
   <div class="z-50 relative flex h-22 w-screen justify-center items-center">
     <Transition name="nav">
-      <div class="space-x-8">
+      <div class="sm:space-x-8 space-x-4">
         <NuxtLink v-for="({ name, url }, index) in navItems" :key="index" :to="url" class="sm:text-xl text-lg text-white font-light hover:opacity-70 transition-all">
           {{ name }}
         </NuxtLink>

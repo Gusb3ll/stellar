@@ -12,7 +12,7 @@ definePageMeta({
   <div class="flex min-h-screen justify-center -mt-22">
     <div class="flex flex-col justify-center items-center gap-8">
       <h1 class="md:text-7xl text-3xl text-white text-center tracking-wide uppercase select-none">
-        <writer :text="['Kitpipat Jaritwong', 'Gusbell']" preset="nier" :queue="{ loop: true, interval: 4000 }" appear />
+        <writer :text="['Gusbell', 'Kitpipat Jaritwong']" preset="nier" :queue="{ loop: true, interval: 4000 }" appear />
       </h1>
       <AppSocial />
       <a href="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ">

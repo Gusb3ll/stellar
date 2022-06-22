@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <div class="flex min-h-screen w-screen justify-center">
-    <div class="flex flex-col gap-8 mt-8">
+    <div class="flex flex-col gap-8 mt-16">
       <Transition name="fadeFast">
         <div class="flex flex-col justify-center items-center gap-8">
           <img src="~/assets/pfp.jpg" class="h-48 w-48 rounded-full">

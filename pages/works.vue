@@ -22,13 +22,13 @@ onMounted(() => {
           <a class="flex flex-col gap-2 border borer-white border-opacity-50 rounded-xl" href="https://www.omtht.xyz" target="_blank">
             <img src="~/assets/works/omth22.webp" class="p-2 rounded-xl" alt="">
             <h1 class="sm:text-xl text-lg text-white text-center px-4 pb-2">
-              osu!mania Thailand Tournamnet 2022
+              osu!mania Thailand Tournament 2022
             </h1>
           </a>
           <a class="flex flex-col gap-2 border borer-white border-opacity-50 rounded-xl" href="https://osu.ppy.sh/community/forums/topics/1293390?n=1" target="_blank">
             <img src="~/assets/works/omth21.webp" class="p-2 rounded-xl" alt="">
             <h1 class="sm:text-xl text-lg text-white text-center px-4 pb-2">
-              osu!mania Thailand Tournamnet 2021
+              osu!mania Thailand Tournament 2021
             </h1>
           </a>
         </div>
