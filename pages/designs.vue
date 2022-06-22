@@ -48,6 +48,6 @@ onMounted(() => {
 
 <style scoped>
 .img_container {
-  @apply flex sm:max-w-[30vw] max-w-[90vw] h-64 justify-center items-center  border border-white border-opacity-30 rounded-xl
+  @apply flex w-full h-64 justify-center items-center  border border-white border-opacity-30 rounded-xl
 }
 </style>
