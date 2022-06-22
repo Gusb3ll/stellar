@@ -15,9 +15,9 @@ definePageMeta({
         <writer :text="['Gusbell', 'Kitpipat Jaritwong']" preset="nier" :queue="{ loop: true, interval: 4000 }" appear />
       </h1>
       <AppSocial />
-      <a href="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ">
+      <NuxtLink to="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ" target="_blank">
         <img alt="วงแหวนเว็บ" width="32" height="32" src="https://webring.wonderful.software/webring.white.svg">
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
