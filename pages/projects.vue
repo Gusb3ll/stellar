@@ -3,10 +3,10 @@ import GlitchedWriter from 'vue-glitched-writer'
 import projects from '~/assets/projects.json'
 
 const writer = GlitchedWriter
-const projActive = ref(false)
+const loading = ref(true)
 
 onMounted(() => {
-  projActive.value = true
+  loading.value = false
 })
 </script>
 
@@ -14,12 +14,12 @@ onMounted(() => {
   <div class="flex h-full w-screen justify-center">
     <div class="flex flex-col gap-12 mt-8">
       <Transition name="fadeFast">
-        <h1 v-if="projActive" class="md:text-5xl text-3xl text-white text-center tracking-wide uppercase select-none">
+        <h1 v-if="!loading" class="md:text-5xl text-3xl text-white text-center tracking-wide uppercase select-none">
           <writer text="Projects" preset="nier" appear />
         </h1>
       </Transition>
       <Transition name="fade">
-        <div v-show="projActive" class="grid h-full w-full xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-8">
+        <div v-if="!loading" class="grid h-full w-full xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-8">
           <AppProject
             v-for="({ title, description, githubEnable, websiteEnable, githubUrl, websiteUrl }, index) in projects"
             :key="index"

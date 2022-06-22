@@ -2,14 +2,9 @@
 import GlitchedWriter from 'vue-glitched-writer'
 
 const writer = GlitchedWriter
-const loading = ref(true)
 
 definePageMeta({
   layout: 'default',
-})
-
-onMounted(() => {
-  loading.value = false
 })
 </script>
 

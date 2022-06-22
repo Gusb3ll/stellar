@@ -2,10 +2,10 @@
 import GlitchedWriter from 'vue-glitched-writer'
 
 const writer = GlitchedWriter
-const designActive = ref(false)
+const loading = ref(true)
 
 onMounted(() => {
-  designActive.value = true
+  loading.value = false
 })
 </script>
 
@@ -13,12 +13,12 @@ onMounted(() => {
   <div class="flex min-h-screen w-screen justify-center">
     <div class="flex flex-col gap-12 mt-8">
       <Transition name="fadeFast">
-        <h1 v-if="designActive" class="md:text-5xl text-3xl text-white text-center tracking-wide uppercase select-none">
+        <h1 v-if="!loading" class="md:text-5xl text-3xl text-white text-center tracking-wide uppercase select-none">
           <writer text="Designs" preset="nier" appear />
         </h1>
       </Transition>
       <Transition name="fade">
-        <div v-show="designActive" class="grid h-full w-full xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-8">
+        <div v-show="!loading" class="grid h-full w-full xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-8">
           <div class="img_container">
             <img src="~/assets/designs/banner1.png" class="max-w-90">
           </div>

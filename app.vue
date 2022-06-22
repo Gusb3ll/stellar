@@ -1,4 +1,10 @@
 <template>
-  <AppLayoutNav />
-  <NuxtPage />
+  <div>
+    <nav>
+      <AppLayoutNav />
+    </nav>
+    <main>
+      <NuxtPage />
+    </main>
+  </div>
 </template>
