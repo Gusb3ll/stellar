@@ -37,7 +37,7 @@
     "typescript": "4.7.4",
     "vite": "2.9.12",
     "vite-plugin-compression": "0.5.1",
-    "vue": "3.2.36",
+    "vue": "3.2.37",
     "vue-glitched-writer": "1.2.2",
     "vue-wow": "^1.2.0"
   }
