@@ -659,20 +659,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dansmaculotte/nuxt-security@npm:0.0.5":
-  version: 0.0.5
-  resolution: "@dansmaculotte/nuxt-security@npm:0.0.5"
-  dependencies:
-    consola: "npm:^2.15.0"
-    feature-policy: "npm:0.6.0"
-    helmet-csp: "npm:^3.3.1"
-    hsts: "npm:^2.2.0"
-    permissions-policy: "npm:0.6.0"
-    referrer-policy: "npm:^1.2.0"
-  checksum: f199e3a9d7282e34b0f88c062eb59255d896d237250e65905927ad484208445d3e44eea9fd312940baac0212f295c745eabd917e5098477c56f0e07220ae90ff
-  languageName: node
-  linkType: hard
-
 "@eslint/eslintrc@npm:^1.3.0":
   version: 1.3.0
   resolution: "@eslint/eslintrc@npm:1.3.0"
@@ -865,13 +851,6 @@ __metadata:
     mkdirp: "npm:^1.0.4"
     rimraf: "npm:^3.0.2"
   checksum: e7c413d3ed558183dd32b88bd024fa71f152267f2172211e1bb3ef60caf86cb438e4365b02affdd633ca4600eeb1d6143a454ccffc2aa84e468e56074a6cc7e7
-  languageName: node
-  linkType: hard
-
-"@nuxt-modules/compression@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@nuxt-modules/compression@npm:0.1.0"
-  checksum: 38ab4f13cbf2096a22af55f3ff9a50d9f7dcf60298715c308aca6271c59434fb1ad9879835b1af46efa0cba0bccac8260b02dc60fdde7d4ed2261e91c7f5e40e
   languageName: node
   linkType: hard
 
@@ -2560,7 +2539,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1, chalk@npm:^4.1.2":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -3016,7 +2995,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^2.15.0, consola@npm:^2.15.3":
+"consola@npm:^2.15.3":
   version: 2.15.3
   resolution: "consola@npm:2.15.3"
   checksum: 3367f6bd137f1bc82d4585a93ca3c80c0cb4c8c9092a13ca5408401e78250d2bcc6c787e98e007d630d6d1ab0aa7447fb7ef8c5502898bbc36d6e3917d0d8a49
@@ -4937,13 +4916,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"feature-policy@npm:0.6.0":
-  version: 0.6.0
-  resolution: "feature-policy@npm:0.6.0"
-  checksum: 0309f5ca86701c280800a65118cd345dc17c1ec5f2fbbf44552697fe3300350a0991d3d8c2ec3640637a191009fccadae741d77a2d0f855311d018d32522e3eb
-  languageName: node
-  linkType: hard
-
 "fetch-blob@npm:^3.1.2, fetch-blob@npm:^3.1.4":
   version: 3.1.5
   resolution: "fetch-blob@npm:3.1.5"
@@ -5673,20 +5645,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"helmet-csp@npm:^3.3.1":
-  version: 3.4.0
-  resolution: "helmet-csp@npm:3.4.0"
-  checksum: cada05cc260f0863aa5fceafd645dc7658dd22482cd9e118c2f57fcc90b2696040002284a329edb0be456560c3b75cca47e465fed0313414943e10dd7f19439b
-  languageName: node
-  linkType: hard
-
-"helmet@npm:5.1.0":
-  version: 5.1.0
-  resolution: "helmet@npm:5.1.0"
-  checksum: 0cf189428f0b9c7cf430e92f3de46fda53253906a5d92b7c2bc077e92245a9df4068b0e336a59f85fadc972290b6dbca4c4ea29bad1e3f4d5d1c3b64ad4b3134
-  languageName: node
-  linkType: hard
-
 "hookable@npm:^5.1.1":
   version: 5.1.1
   resolution: "hookable@npm:5.1.1"
@@ -5707,15 +5665,6 @@ __metadata:
   dependencies:
     lru-cache: "npm:^6.0.0"
   checksum: d47495db8d2a39faef6cd1adbdced4e6a52d41a4aedec757eb2552e93a881236e431e18e72a3b6d7aa7c575995f5b06b91cce5a86886fdccfbd405df28a61882
-  languageName: node
-  linkType: hard
-
-"hsts@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "hsts@npm:2.2.0"
-  dependencies:
-    depd: "npm:2.0.0"
-  checksum: 83311ba0c352c626da64fdb3424d8a425c73e6e07a25a7379604fb8474929229d1b0a1ade44da91d03c8e811c607d11569d996207b9619fc59ff95bd91d68bf2
   languageName: node
   linkType: hard
 
@@ -8624,13 +8573,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"permissions-policy@npm:0.6.0":
-  version: 0.6.0
-  resolution: "permissions-policy@npm:0.6.0"
-  checksum: c39cf37d446fa5e0a1e0ab734daaaabaf5ab99f6b363b8e152b6d88c35b04d2dfca9bbcf061ae4e81c9387f9779b42cc27a6be86f833938e77cb3f1efaaece2c
-  languageName: node
-  linkType: hard
-
 "picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
@@ -9391,13 +9333,6 @@ __metadata:
   dependencies:
     redis-errors: "npm:^1.0.0"
   checksum: 02c1783a0cbd37c14127a68c7c4bcd51b784d90fb956cc7399a829f7c6cb7dd62ff2274a23f488acf1c68b61cc662fb2f406ac3946685c78e2023825944ca498
-  languageName: node
-  linkType: hard
-
-"referrer-policy@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "referrer-policy@npm:1.2.0"
-  checksum: df131798bf68be2eafa2bda9d678966e56fafbcb4f04afe66e867e74d10406a790b7057747b4ff63bf0914e30d9b2a6455788e397267845db380fb0157309afb
   languageName: node
   linkType: hard
 
@@ -10168,23 +10103,18 @@ __metadata:
     "@antfu/eslint-config": "npm:0.25.1"
     "@commitlint/cli": "npm:17.0.2"
     "@commitlint/config-conventional": "npm:17.0.2"
-    "@dansmaculotte/nuxt-security": "npm:0.0.5"
     "@iconify/vue": "npm:3.2.1"
     "@lhci/cli": "npm:0.9.0"
-    "@nuxt-modules/compression": "npm:0.1.0"
     "@nuxt/vite-builder": "npm:^3.0.0-rc.4"
     "@vueuse/nuxt": "npm:8.7.5"
     eslint: "npm:8.18.0"
-    helmet: "npm:5.1.0"
     husky: "npm:8.0.1"
     nuxt: "npm:3.0.0-rc.4"
     nuxt-windicss: "npm:2.4.2"
     typescript: "npm:4.7.4"
     vite: "npm:2.9.12"
-    vite-plugin-compression: "npm:0.5.1"
     vue: "npm:3.2.37"
     vue-glitched-writer: "npm:1.2.2"
-    vue-wow: "npm:^1.2.0"
   languageName: unknown
   linkType: soft
 
@@ -11271,19 +11201,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-compression@npm:0.5.1":
-  version: 0.5.1
-  resolution: "vite-plugin-compression@npm:0.5.1"
-  dependencies:
-    chalk: "npm:^4.1.2"
-    debug: "npm:^4.3.3"
-    fs-extra: "npm:^10.0.0"
-  peerDependencies:
-    vite: ">=2.0.0"
-  checksum: 6b93e00b250dfa5cacea18f5b3169d32318aebbe9ddb3bcd5f781e1578e512c9f941f8bff24dd38a01a484348916b4607f300604d4c6aad64234b79ea33e2f38
-  languageName: node
-  linkType: hard
-
 "vite-plugin-windicss@npm:^1.8.4":
   version: 1.8.4
   resolution: "vite-plugin-windicss@npm:1.8.4"
@@ -11472,15 +11389,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-wow@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "vue-wow@npm:1.2.0"
-  dependencies:
-    vue: "npm:^2.5.2"
-  checksum: 53bc3dc38d9eb6f6afeb830d29c7b2d988520d003b0c219906be10a77a88267c712d8d3a3285cd71e857a34ebe011dc82305914679578b9b593e4a63f53f2582
-  languageName: node
-  linkType: hard
-
 "vue@npm:3.2.37, vue@npm:^3.2.37":
   version: 3.2.37
   resolution: "vue@npm:3.2.37"
@@ -11491,13 +11399,6 @@ __metadata:
     "@vue/server-renderer": "npm:3.2.37"
     "@vue/shared": "npm:3.2.37"
   checksum: b6488ba70b487b0bc22d5c9b93dc2479024ab89fa59f424824adf9120a6770505f6d13d1d298638eab212a1d0d3425b2db9dd73f3aed402927dea49c2a6d8dbb
-  languageName: node
-  linkType: hard
-
-"vue@npm:^2.5.2":
-  version: 2.6.14
-  resolution: "vue@npm:2.6.14"
-  checksum: 2add3c486f75b5dac6f1017c32692485dcbe4f7fc84455a918a3c2de86e40bb307b8fc811e0171808dce674e0c9c5e334e284711114c0a195ff08f04a9c61dfe
   languageName: node
   linkType: hard
 
