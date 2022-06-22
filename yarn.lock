@@ -1373,6 +1373,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/web-bluetooth@npm:^0.0.14":
+  version: 0.0.14
+  resolution: "@types/web-bluetooth@npm:0.0.14"
+  checksum: bd8de670b785fc52db4931ea49fd8a49bb9508970de5a780148e2f4e39c326a607bc4a33f953d39de38a31b11406f3873dc044d51d4a3437555ba8ca283704e4
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:^5.26.0":
   version: 5.27.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.27.0"
@@ -1790,12 +1797,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/core@npm:8.7.4"
+"@vueuse/core@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/core@npm:8.7.5"
   dependencies:
-    "@vueuse/metadata": "npm:8.7.4"
-    "@vueuse/shared": "npm:8.7.4"
+    "@types/web-bluetooth": "npm:^0.0.14"
+    "@vueuse/metadata": "npm:8.7.5"
+    "@vueuse/shared": "npm:8.7.5"
     vue-demi: "npm:*"
   peerDependencies:
     "@vue/composition-api": ^1.1.0
@@ -1805,7 +1813,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 035e1f6d89fdd0d2d718fb905b434a4750a9efa41aa0284efd2df9d5dbbe601d06439dc9229453d526f95a29846705d51def998b7b196032403e9c84cb7234d6
+  checksum: c964a536a910ee671f44b47666a8cbeac2fc755ecde1d24cefecd2c402f9e3957cb3c3bc8dba90ccedec4faf000f11c587cccb9721c99363dbd1085ba763101c
   languageName: node
   linkType: hard
 
@@ -1818,29 +1826,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/metadata@npm:8.7.4"
-  checksum: 97ac8551118aef125ddeab7878b4ccbc74ce64790c3ac97f65a6b31028094cff2a6538d2046932f64d1f46ded302c7895ef7ac7d08445da9c19318f202aa3c11
+"@vueuse/metadata@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/metadata@npm:8.7.5"
+  checksum: 2ef37a9667ff68168716d5863593e834304cbe4ed19816b8a9644f4cc31cc127375937a355e09152700e6bbca104b003ec60b3add1598ecbbaec30aa9955f342
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/nuxt@npm:8.7.4"
+"@vueuse/nuxt@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/nuxt@npm:8.7.5"
   dependencies:
     "@nuxt/kit": "npm:^3.0.0-rc.4"
-    "@vueuse/core": "npm:8.7.4"
-    "@vueuse/metadata": "npm:8.7.4"
+    "@vueuse/core": "npm:8.7.5"
+    "@vueuse/metadata": "npm:8.7.5"
     local-pkg: "npm:^0.4.1"
     vue-demi: "npm:*"
-  checksum: a2d2c807daa56758ffbf3dcbe0c5f3d79ef869996dc12efd1edb783c137d192b9d1bd359516f16c850978a562e441529e67315d5ced27fa9ada648ee8683ed8b
+  checksum: e931e79616d8a5d3605e00b3818cd2af040783aa80d377f04889fe08c719cf6ef0e9d1a56c89d06adce1362dca0b62673c9a0d87fc16f6bbc70d40f50f5712d8
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:8.7.4":
-  version: 8.7.4
-  resolution: "@vueuse/shared@npm:8.7.4"
+"@vueuse/shared@npm:8.7.5":
+  version: 8.7.5
+  resolution: "@vueuse/shared@npm:8.7.5"
   dependencies:
     vue-demi: "npm:*"
   peerDependencies:
@@ -1851,7 +1859,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: b81b3289f2e42e8b9d683f790a2ee758a793eca30585d2e50a39c2e645cba4b0c0fde0c9fb0987096b922c46defd4c5d63df12ae5f8b0e5d3121cf626c9ce6fa
+  checksum: 01c0f85c08427437b59470c95e0bc5ba96e9bf1f60e0a107b7b2d792407373525262719e898b19cfe48e19b85f626726daad324dc486e5e5552ac165ae960fab
   languageName: node
   linkType: hard
 
@@ -10277,7 +10285,7 @@ __metadata:
     "@lhci/cli": "npm:0.9.0"
     "@nuxt-modules/compression": "npm:0.1.0"
     "@nuxt/vite-builder": "npm:^3.0.0-rc.4"
-    "@vueuse/nuxt": "npm:8.7.4"
+    "@vueuse/nuxt": "npm:8.7.5"
     eslint: "npm:8.18.0"
     helmet: "npm:5.1.0"
     husky: "npm:8.0.1"
