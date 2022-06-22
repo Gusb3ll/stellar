@@ -1,6 +1,14 @@
 [
   {
-    "title": "oturne",
+    "title": "ayanami (WIP)",
+    "description": "Server emulator for SEGA games, based from latest AQUA",
+    "githubEnable": true,
+    "websiteEnable": false,
+    "githubUrl": "https://github.com/Gusb3ll/ayanami",
+    "websiteUrl": ""
+  },
+  {
+    "title": "oturne (WIP)",
     "description": "Tournament mananger for rhythm game osu!",
     "githubEnable": false,
     "websiteEnable": false,
@@ -12,15 +20,23 @@
     "description": "Alternative frontend for VNDB website",
     "githubEnable": true,
     "websiteEnable": true,
-    "githubUrl": "https://github.com/gusb3ll/yuriko",
+    "githubUrl": "https://github.com/Gusb3ll/yuriko",
     "websiteUrl": "https://yuriko.gusbell.tech"
   },
   {
-    "title": "Tsuki",
-    "description": "Manga uncensoring using DeepCreamPy & HentAI",
+    "title": "graphql-list-task",
+    "description": "For my brikl assignment",
     "githubEnable": true,
     "websiteEnable": false,
-    "githubUrl": "https://github.com/gusb3ll/tsuki",
+    "githubUrl": "https://github.com/Gusb3ll/graphql-list-task",
+    "websiteUrl": ""
+  },
+  {
+    "title": "osu-graphql (WIP)",
+    "description": "Reimpmentation of osu! api in graphql",
+    "githubEnable": true,
+    "websiteEnable": false,
+    "githubUrl": "https://github.com/Gusb3ll/osu-graphql",
     "websiteUrl": ""
   },
   {
@@ -28,8 +44,24 @@
     "description": "Dataset for Thailand public train transportation (Bangkok area)",
     "githubEnable": true,
     "websiteEnable": true,
-    "githubUrl": "https://github.com/gusb3ll/thailand-public-train-data",
+    "githubUrl": "https://github.com/Gusb3ll/thailand-public-train-data",
     "websiteUrl": "https://kaggle.com/datasets/gusbell/thailand-public-train-data-bangkok-area"
+  },
+  {
+    "title": "Tsuki",
+    "description": "Manga uncensoring using DeepCreamPy & HentAI",
+    "githubEnable": true,
+    "websiteEnable": false,
+    "githubUrl": "https://github.com/Gusb3ll/tsuki",
+    "websiteUrl": ""
+  },
+  {
+    "title": "omise-nuxt3",
+    "description": "omise.js integration with nuxt3",
+    "githubEnable": true,
+    "webisteEnable": true,
+    "githubUrl": "https://github.com/Gusb3ll/omise-nuxt3",
+    "websiteUrl": "https://omise.gusbell.tech"
   },
   {
     "title": "mempool",
@@ -40,28 +72,20 @@
     "websiteUrl": "https://mempool.space/th"
   },
   {
+    "title": "osu!tailwind (Discontinued)",
+    "description": "osu! website but in tailwindcss",
+    "githubEnable": true,
+    "websiteEnable": true,
+    "githubUrl": "https://github.com/Gusb3ll/osu-tailwind",
+    "websiteUrl": "https://tailwind.gusbell.tech"
+  },
+  {
     "title": "Holotranslator",
     "description": "Live Japanese speech to English text translator",
     "githubEnable": true,
     "websiteEnable": false,
-    "githubUrl": "https://github.com/gusb3ll/holotranslator",
+    "githubUrl": "https://github.com/Gusb3ll/holotranslator",
     "websiteUrl": ""
-  },
-  {
-    "title": "osu-graphql (WIP)",
-    "description": "Reimpmentation of osu! api in graphql",
-    "githubEnable": true,
-    "websiteEnable": false,
-    "githubUrl": "https://github.com/gusb3ll/osu-graphql",
-    "websiteUrl": ""
-  },
-  {
-    "title": "omise-nuxt3",
-    "description": "omise.js integration with nuxt3",
-    "githubEnable": true,
-    "webisteEnable": true,
-    "githubUrl": "https://github.com/Gusb3ll/omise-nuxt3",
-    "websiteUrl": "https://omise.gusbell.tech"
   },
   {
     "title": "arduino-coffeeMaker",
