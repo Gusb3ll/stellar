@@ -20,7 +20,7 @@
     "lhci:desktop": "lhci autorun --collect.settings.preset=desktop"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.25.1",
+    "@antfu/eslint-config": "0.25.2",
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
     "@iconify/vue": "3.2.1",
