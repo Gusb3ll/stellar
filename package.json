@@ -2,7 +2,7 @@
   "name": "stellar",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "yarn@4.0.0-rc.9",
+  "packageManager": "yarn@4.0.0-rc.10",
   "description": "My personal website",
   "author": "Gusbell (https://www.gusbell.tech)",
   "license": "MIT",
