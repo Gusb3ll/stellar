@@ -481,12 +481,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.0.2":
-  version: 17.0.2
-  resolution: "@commitlint/config-conventional@npm:17.0.2"
+"@commitlint/config-conventional@npm:17.0.3":
+  version: 17.0.3
+  resolution: "@commitlint/config-conventional@npm:17.0.3"
   dependencies:
     conventional-changelog-conventionalcommits: "npm:^5.0.0"
-  checksum: 48789bdfc036090c77d3a9fe1a334242815868f00be67895079a7f8d0f24b5a69a16a651e72e0304dbd37b93ba8b28871656736c4b8d8db1891e81ecd757e60a
+  checksum: 5614f6772c655fbc3543bf95caf1343ee81653d93e68cc4f564219f1a1e44ccdd0a166d102ec96f90a907a09d47df8661014dd25295f426a078f923b4494f47d
   languageName: node
   linkType: hard
 
@@ -10102,7 +10102,7 @@ __metadata:
   dependencies:
     "@antfu/eslint-config": "npm:0.25.2"
     "@commitlint/cli": "npm:17.0.3"
-    "@commitlint/config-conventional": "npm:17.0.2"
+    "@commitlint/config-conventional": "npm:17.0.3"
     "@iconify/vue": "npm:3.2.1"
     "@lhci/cli": "npm:0.9.0"
     "@nuxt/vite-builder": "npm:^3.0.0-rc.4"
