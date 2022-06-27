@@ -10112,7 +10112,7 @@ __metadata:
     nuxt: "npm:3.0.0-rc.4"
     nuxt-windicss: "npm:2.4.2"
     typescript: "npm:4.7.4"
-    vite: "npm:2.9.12"
+    vite: "npm:2.9.13"
     vue: "npm:3.2.37"
     vue-glitched-writer: "npm:1.2.2"
   languageName: unknown
@@ -11215,7 +11215,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.12, vite@npm:^2.9.12, vite@npm:^2.9.9":
+"vite@npm:2.9.13":
+  version: 2.9.13
+  resolution: "vite@npm:2.9.13"
+  dependencies:
+    esbuild: "npm:^0.14.27"
+    fsevents: "npm:~2.3.2"
+    postcss: "npm:^8.4.13"
+    resolve: "npm:^1.22.0"
+    rollup: "npm:^2.59.0"
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: e94c118a9987ade9ee4aec4423cb02d6737db5f5aaf18880faa62553a0f05e4734cfc65fb35fce620a600365ed1a7fb55ca4bd3f3b6ee31da5e123019e8164f9
+  languageName: node
+  linkType: hard
+
+"vite@npm:^2.9.12, vite@npm:^2.9.9":
   version: 2.9.12
   resolution: "vite@npm:2.9.12"
   dependencies:
