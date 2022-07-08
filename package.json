@@ -26,7 +26,7 @@
     "@iconify/vue": "3.2.1",
     "@lhci/cli": "0.9.0",
     "@nuxt/vite-builder": "^3.0.0-rc.4",
-    "@vueuse/nuxt": "8.9.0",
+    "@vueuse/nuxt": "8.9.1",
     "eslint": "8.19.0",
     "husky": "8.0.1",
     "nuxt": "3.0.0-rc.4",
