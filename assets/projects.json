@@ -1,5 +1,21 @@
 [
   {
+    "title": "halo",
+    "description": "Just a image generator from danboru",
+    "githubEnable": true,
+    "webisteEnable": true,
+    "githubUrl": "https://github.com/Gusb3l/halo",
+    "websiteUrl": "https://halo.gusbell.tech"
+  },
+  {
+    "title": "cunny",
+    "description": "😭",
+    "githubEnable": true,
+    "webisteEnable": true,
+    "githubUrl": "https://github.com/Gusb3ll/cunny",
+    "websiteUrl": "https://cunny.gusbell.tech"
+  },
+  {
     "title": "ayanami (WIP)",
     "description": "Server emulator for SEGA games, based from latest AQUA",
     "githubEnable": true,
