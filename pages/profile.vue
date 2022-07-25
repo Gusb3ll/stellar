@@ -28,6 +28,8 @@ onMounted(() => {
               I love to explore new ideas in coding & designing, Right now I'm a student at <a href="https://kmutnb.ac.th">KMUTNB</a>,
               and I'm currently working as opensource fullstack developer. My main interest are minimal/furturistic design, so I'm working
               to improve myself on it.
+              <br>
+              Also I'm currently working part-time as junior software engineer at <a href="https://www.brikl.com">Brikl</a>.
             </p>
           </div>
         </div>
