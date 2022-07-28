@@ -894,33 +894,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.0.0-rc.4, @nuxt/kit@npm:^3.0.0-rc.4":
-  version: 3.0.0-rc.4
-  resolution: "@nuxt/kit@npm:3.0.0-rc.4"
-  dependencies:
-    "@nuxt/schema": "npm:^3.0.0-rc.4"
-    c12: "npm:^0.2.7"
-    consola: "npm:^2.15.3"
-    defu: "npm:^6.0.0"
-    globby: "npm:^13.1.2"
-    hash-sum: "npm:^2.0.0"
-    ignore: "npm:^5.2.0"
-    jiti: "npm:^1.13.0"
-    knitwork: "npm:^0.1.2"
-    lodash.template: "npm:^4.5.0"
-    mlly: "npm:^0.5.2"
-    pathe: "npm:^0.3.0"
-    pkg-types: "npm:^0.3.2"
-    scule: "npm:^0.2.1"
-    semver: "npm:^7.3.7"
-    unctx: "npm:^1.1.4"
-    unimport: "npm:^0.2.7"
-    untyped: "npm:^0.4.4"
-  checksum: 74420c495075ea3e60b1a1f51abbf5862d69595337330ad7e63ede263c80ac7c1bb74789814ee87e38dc72e16c3e6e77f47772708e79d0670353081783ef0927
-  languageName: node
-  linkType: hard
-
-"@nuxt/kit@npm:^3.0.0-rc.6":
+"@nuxt/kit@npm:3.0.0-rc.6, @nuxt/kit@npm:^3.0.0-rc.6":
   version: 3.0.0-rc.6
   resolution: "@nuxt/kit@npm:3.0.0-rc.6"
   dependencies:
@@ -943,6 +917,32 @@ __metadata:
     unimport: "npm:^0.4.5"
     untyped: "npm:^0.4.4"
   checksum: ec3a7bb90e91fe2f4a6e6739093d3fbed5c567171655b681c4e2dc117a73598bb8486ad1ee05a4db30b46d2b0cb274bcf0a07b9a1c6591cc4f79ec3744446b9d
+  languageName: node
+  linkType: hard
+
+"@nuxt/kit@npm:^3.0.0-rc.4":
+  version: 3.0.0-rc.4
+  resolution: "@nuxt/kit@npm:3.0.0-rc.4"
+  dependencies:
+    "@nuxt/schema": "npm:^3.0.0-rc.4"
+    c12: "npm:^0.2.7"
+    consola: "npm:^2.15.3"
+    defu: "npm:^6.0.0"
+    globby: "npm:^13.1.2"
+    hash-sum: "npm:^2.0.0"
+    ignore: "npm:^5.2.0"
+    jiti: "npm:^1.13.0"
+    knitwork: "npm:^0.1.2"
+    lodash.template: "npm:^4.5.0"
+    mlly: "npm:^0.5.2"
+    pathe: "npm:^0.3.0"
+    pkg-types: "npm:^0.3.2"
+    scule: "npm:^0.2.1"
+    semver: "npm:^7.3.7"
+    unctx: "npm:^1.1.4"
+    unimport: "npm:^0.2.7"
+    untyped: "npm:^0.4.4"
+  checksum: 74420c495075ea3e60b1a1f51abbf5862d69595337330ad7e63ede263c80ac7c1bb74789814ee87e38dc72e16c3e6e77f47772708e79d0670353081783ef0927
   languageName: node
   linkType: hard
 
@@ -1806,29 +1806,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@windicss/config@npm:1.8.6":
-  version: 1.8.6
-  resolution: "@windicss/config@npm:1.8.6"
+"@windicss/config@npm:1.8.7, @windicss/config@npm:^1.8.7":
+  version: 1.8.7
+  resolution: "@windicss/config@npm:1.8.7"
   dependencies:
     debug: "npm:^4.3.4"
     jiti: "npm:^1.14.0"
     windicss: "npm:^3.5.6"
-  checksum: 186ad1214806ece364eb030e21766ba65739a9ed6e2e6dddaa8e39fcf2b171f609e7f4fc91e8ac28496fb27819de3ee0e6412416f48fa2c485192f27f837c849
+  checksum: 344e5f69ab208772226894edfad7cef830ad9719c8cb37e107aa40212c7135d55ebf0fe2ca5e625475ac9924d56f513150a2e3e2e368a67986c442c18fb5382a
   languageName: node
   linkType: hard
 
-"@windicss/plugin-utils@npm:1.8.6, @windicss/plugin-utils@npm:^1.8.6":
-  version: 1.8.6
-  resolution: "@windicss/plugin-utils@npm:1.8.6"
+"@windicss/plugin-utils@npm:1.8.7, @windicss/plugin-utils@npm:^1.8.7":
+  version: 1.8.7
+  resolution: "@windicss/plugin-utils@npm:1.8.7"
   dependencies:
     "@antfu/utils": "npm:^0.5.2"
-    "@windicss/config": "npm:1.8.6"
+    "@windicss/config": "npm:1.8.7"
     debug: "npm:^4.3.4"
     fast-glob: "npm:^3.2.11"
     magic-string: "npm:^0.26.2"
     micromatch: "npm:^4.0.5"
     windicss: "npm:^3.5.6"
-  checksum: 1acb02a488e6b41fcb95eb1a206fda6b914856d80883b82d55b35031aeeac4516d006ca007e56a565ddc490a51f8a5a678aadf10132e0c09e57f5d2d359f7f27
+  checksum: 94672be10bdcf43d062c3b5f11e916642632fe5c4b37a58032e32dcdf89d31104b0252801ea80330d4f40362ef017ec61edf41e2f217a61ce18f84507a99c960
   languageName: node
   linkType: hard
 
@@ -5825,6 +5825,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"h3@npm:^0.7.12":
+  version: 0.7.12
+  resolution: "h3@npm:0.7.12"
+  dependencies:
+    cookie-es: "npm:^0.5.0"
+    destr: "npm:^1.1.1"
+    radix3: "npm:^0.1.2"
+    ufo: "npm:^0.8.5"
+  checksum: 7b5430929304bd184d64fecd40c58b8ff594b3f3e2a144f467c25c55fccafda2900bb552913abb92b088ac8fab71b89d5669c23b04d886a1486adbff51badd87
+  languageName: node
+  linkType: hard
+
 "hard-rejection@npm:^2.1.0":
   version: 2.1.0
   resolution: "hard-rejection@npm:2.1.0"
@@ -8147,25 +8159,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-windicss@npm:2.4.3":
-  version: 2.4.3
-  resolution: "nuxt-windicss@npm:2.4.3"
+"nuxt-windicss@npm:2.5.0":
+  version: 2.5.0
+  resolution: "nuxt-windicss@npm:2.5.0"
   dependencies:
-    "@nuxt/kit": "npm:3.0.0-rc.4"
-    "@windicss/plugin-utils": "npm:^1.8.6"
+    "@nuxt/kit": "npm:3.0.0-rc.6"
+    "@windicss/config": "npm:^1.8.7"
+    "@windicss/plugin-utils": "npm:^1.8.7"
     consola: "npm:^2.15.3"
     defu: "npm:^6.0.0"
     fs-extra: "npm:^10.1.0"
-    h3: "npm:^0.7.10"
+    h3: "npm:^0.7.12"
     listhen: "npm:^0.2.13"
     pathe: "npm:^0.3.2"
     read-cache: "npm:^1.0.0"
     sirv: "npm:^2.0.2"
-    vite-plugin-windicss: "npm:^1.8.6"
+    vite-plugin-windicss: "npm:^1.8.7"
     windicss: "npm:^3.5.6"
     windicss-analysis: "npm:^0.3.5"
-    windicss-webpack-plugin: "npm:^1.7.4"
-  checksum: dec3f939dbab0ab87003e32c75baa9412a1ebf699448b0ce007ffa0f6c4c351bcfaeb362d9384efb11a79415137fa887b771b9530cde7f2054e0bd851802dd4b
+    windicss-webpack-plugin: "npm:^1.7.5"
+  checksum: d740dd516b5d0fec50269cbccefe21967690c692579e66455a2b9e2fcd0a5b22acb02c9e4f7e32583c9b3c200c64b80441747f23e4db8f39b9b33c510f76244f
   languageName: node
   linkType: hard
 
@@ -10348,7 +10361,7 @@ __metadata:
     eslint: "npm:8.20.0"
     husky: "npm:8.0.1"
     nuxt: "npm:3.0.0-rc.6"
-    nuxt-windicss: "npm:2.4.3"
+    nuxt-windicss: "npm:2.5.0"
     typescript: "npm:4.7.4"
     vite: "npm:2.9.14"
     vue: "npm:3.2.37"
@@ -11530,17 +11543,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-windicss@npm:^1.8.6":
-  version: 1.8.6
-  resolution: "vite-plugin-windicss@npm:1.8.6"
+"vite-plugin-windicss@npm:^1.8.7":
+  version: 1.8.7
+  resolution: "vite-plugin-windicss@npm:1.8.7"
   dependencies:
-    "@windicss/plugin-utils": "npm:1.8.6"
+    "@windicss/plugin-utils": "npm:1.8.7"
     debug: "npm:^4.3.4"
     kolorist: "npm:^1.5.1"
     windicss: "npm:^3.5.6"
   peerDependencies:
-    vite: ^2.0.1
-  checksum: 2e01c28ec72458e4a32512a4127f6d49c5159251fc1a2ae5681c1bdeac6b8ba28cbe41743a4b5ddeb0a54016c77da022d6babdd0b7ef68fc97f853fd84a3b99a
+    vite: ^2.0.1 || ^3.0.0
+  checksum: e260be8a46fadfb11de8c0f877c05466deb74b3e1e20160dfadebd8604ea7bd680412d3bcbeeaf669b86744487b5af9a8b289cfabdbb5bda93dc78ab689fd51e
   languageName: node
   linkType: hard
 
@@ -11930,11 +11943,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"windicss-webpack-plugin@npm:^1.7.4":
-  version: 1.7.4
-  resolution: "windicss-webpack-plugin@npm:1.7.4"
+"windicss-webpack-plugin@npm:^1.7.5":
+  version: 1.7.5
+  resolution: "windicss-webpack-plugin@npm:1.7.5"
   dependencies:
-    "@windicss/plugin-utils": "npm:^1.8.6"
+    "@windicss/plugin-utils": "npm:^1.8.7"
     debug: "npm:^4.3.4"
     get-port: "npm:^6.1.2"
     loader-utils: "npm:^2.0.0"
@@ -11942,7 +11955,7 @@ __metadata:
     pathe: "npm:^0.2.0"
     webpack-virtual-modules: "npm:^0.4.3"
     windicss: "npm:^3.5.6"
-  checksum: 8a8891ebe7ee27088928277f25377c540fc8110860db2be66899682ab9c7dd99de7b802e9f64726f6ce206810c66529e74115109b05e7d9b85d1cc7680e301c1
+  checksum: 66e2de3877c1d19f614736eb92e789b129b6344a70e11753ae7a0704851c015e21577624e25aa444ff61627a73d786ef3dfe783caee53a88fd6c52daffea563a
   languageName: node
   linkType: hard
 
