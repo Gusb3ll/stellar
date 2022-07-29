@@ -24,7 +24,7 @@
     "@nuxt/image-edge": "1.0.0-27628766.3629b9a",
     "nuxt": "3.0.0-rc.6",
     "nuxt-windicss": "2.5.0",
-    "vite": "2.9.14",
+    "vite": "3.0.4",
     "vue": "3.2.37",
     "@nuxt/vite-builder": "3.0.0-rc.6",
     "vue-glitched-writer": "1.2.2"
