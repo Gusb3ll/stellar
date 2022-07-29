@@ -43,11 +43,11 @@ export default defineNuxtConfig({
   plugins: [],
 
   modules: [
+    '@nuxt/image-edge',
   ],
 
   buildModules: [
     'nuxt-windicss',
-    '@vueuse/nuxt',
   ],
 
   typescript: { strict: true, typeCheck: true },

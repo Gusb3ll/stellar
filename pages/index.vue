@@ -9,24 +9,22 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="flex min-h-screen justify-center -mt-22">
-    <Transition name="fadeFast">
-      <div v-if="!loading" class="flex flex-col justify-center items-center gap-8">
-        <h1 class="md:text-7xl text-3xl text-white text-center tracking-wide uppercase select-none">
-          <writer :text="['Kitpipat Jaritwong', 'Gusbell']" preset="nier" :queue="{ loop: true, interval: 4000 }" appear />
-        </h1>
-        <AppSocial />
-        <div class="absolute bottom-12">
-          <div class="flex flex-row gap-8">
-            <NuxtLink to="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ" target="_blank">
-              <img alt="วงแหวนเว็บ" width="32" height="32" src="https://webring.wonderful.software/webring.white.svg">
-            </NuxtLink>
-            <NuxtLink to="https://creatorsgarten.org/ring" title="creatorsgarten" target="_blank">
-              <img src="~/assets/logo/creator.svg" width="32" height="32" alt="creatorsgarten" class="text-white">
-            </NuxtLink>
-          </div>
-        </div>
+  <div class="flex h-screen justify-center -mt-22">
+    <div class="flex flex-col justify-center items-center gap-8">
+      <h1 class="md:text-7xl sm:text-5xl text-3xl text-white text-center tracking-wide uppercase select-none">
+        <writer :text="['ガスベル', 'Gusbell', 'Kitpipat Jaritwong']" preset="nier" :queue="{ loop: true, interval: 4000 }" appear />
+      </h1>
+      <AppSocial />
+    </div>
+    <div class="absolute bottom-12">
+      <div class="flex flex-row gap-8">
+        <NuxtLink to="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ" target="_blank">
+          <nuxt-img format="svg" src="/img/logo/webring.svg" width="32" height="32" alt="วงแหวนเว็บ" />
+        </NuxtLink>
+        <NuxtLink to="https://creatorsgarten.org/ring" title="creatorsgarten" target="_blank">
+          <nuxt-img format="svg" src="/img/logo/creator.svg" width="32" height="32" alt="creatorsgarten" />
+        </NuxtLink>
       </div>
-    </Transition>
+    </div>
   </div>
 </template>

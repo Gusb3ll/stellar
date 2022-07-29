@@ -20,25 +20,25 @@ onMounted(() => {
       <Transition name="fade">
         <div v-show="!loading" class="grid h-full w-full xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-8">
           <div class="img_container">
-            <img src="~/assets/designs/banner1.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/banner1.png" class="max-w-90" />
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/tsuki.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/tsuki.png" class="max-w-90" />
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/git1.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/git1.png" class="max-w-90" />
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/git2.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/git2.png" class="max-w-90" />
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/stack.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/stack.png" class="max-w-90" />
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/twit.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/twit.png" class="max-w-90" />
           </div>
           <div class="img_container">
-            <img src="~/assets/designs/behance.png" class="max-w-90">
+            <nuxt-img format="webp" src="/img/designs/behance.png" class="max-w-90" />
           </div>
         </div>
       </Transition>

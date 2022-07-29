@@ -1,6 +1,6 @@
 {
   "extends": [
-      "github>danielroe/renovate"
+    "github>danielroe/renovate"
   ],
   "automerge": true,
   "major": {

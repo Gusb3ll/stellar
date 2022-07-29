@@ -32,7 +32,7 @@ defineProps({
         {{ description }}
       </p>
     </div>
-    <div class="mt-4 flex flex-row justify-end items-center gap-8 text-white">
+    <div class="flex flex-row justify-end items-center gap-8 mt-4 text-white">
       <NuxtLink v-show="websiteEnable" :to="websiteUrl" target="_blank" aria-label="website-url">
         <Icon icon="mdi:globe" :style="{ fontSize: '30px' }" class="hover:opacity-50 transition-opacity ease-in-out" />
       </NuxtLink>

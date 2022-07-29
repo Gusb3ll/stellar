@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue'
 
 const links = [
   { to: 'https://github.com/gusb3ll', icon: 'github' },
-  // { to: 'https://www.facebook.com/kitpipat.jaritwong', icon: 'facebook' },
+  { to: 'https://www.facebook.com/kitpipat.jaritwong', icon: 'facebook' },
   { to: 'https://twitter.com/gusb3ll', icon: 'twitter' },
   { to: 'https://discord.com/users/297306376542224385', icon: 'discord' },
   { to: 'https://www.linkedin.com/in/kitpipat-jaritwong-3123a221a/', icon: 'linkedin' },
