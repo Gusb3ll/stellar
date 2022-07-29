@@ -9,8 +9,55 @@ on:
       - main
 
 jobs:
+  build:
+    name: Build
+    runs-on: ${{ matrix.os }}
+  
+    strategy:
+      matrix:
+        os: [self-hosted]
+        node: [16]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+
+      - name: Setup node 🏗
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+      
+      - name: Setup pnpm 📦
+        id: pnpm-install
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory 📁
+        id: pnpm-cache
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+      - name: Setup pnpm cache 📦
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pnpm-install.outputs.dest }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies 👨🏻‍💻
+        run: pnpm install
+
+      - name: Build ⚒️
+        run: pnpm build
+
   lighthouse:
     name: Run lighthouse audit
+    needs: build
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -22,16 +69,36 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@master
         with:
+          fetch-depth: 1
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup node 🏗
-        uses: actions/setup-node@v3.4.1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-          cache: yarn
+      
+      - name: Setup pnpm 📦
+        id: pnpm-install
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory 📁
+        id: pnpm-cache
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+      - name: Setup pnpm cache 📦
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pnpm-install.outputs.dest }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
 
       - name: Install dependencies 👨🏻‍💻
-        run: yarn --immutable
+        run: pnpm install
 
       - name: Run lighthouse audit 💡
         run: yarn lhci:desktop
