@@ -19,10 +19,10 @@ definePageMeta({
     <div class="absolute bottom-12">
       <div class="flex flex-row gap-8">
         <NuxtLink to="https://webring.wonderful.software#gusbell.tech" title="วงแหวนเว็บ" target="_blank">
-          <nuxt-img format="svg" src="/img/logo/webring.svg" width="32" height="32" alt="วงแหวนเว็บ" />
+          <img src="~/assets/img/logo/webring.svg" width="32" height="32" alt="วงแหวนเว็บ">
         </NuxtLink>
         <NuxtLink to="https://creatorsgarten.org/ring" title="creatorsgarten" target="_blank">
-          <nuxt-img format="svg" src="/img/logo/creator.svg" width="32" height="32" alt="creatorsgarten" />
+          <img src="~/assets/img/logo/creator.svg" width="32" height="32" alt="creatorsgarten">
         </NuxtLink>
       </div>
     </div>

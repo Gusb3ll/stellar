@@ -14,7 +14,7 @@ onMounted(() => {
     <div class="flex flex-col gap-8 mt-16">
       <Transition name="fadeFast">
         <div v-if="!loading" class="flex flex-col justify-center items-center gap-8">
-          <nuxt-img format="webp" src="/img/pfp.jpg" class="h-48 w-48 rounded-full" />
+          <img src="~/assets/img/pfp.jpg" class="h-48 w-48 rounded-full">
           <h1 class="md:text-5xl text-3xl text-white text-center tracking-wide select-none">
             <writer text="Hi 👋" preset="nier" appear />
           </h1>

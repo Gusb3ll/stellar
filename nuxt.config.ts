@@ -43,7 +43,6 @@ export default defineNuxtConfig({
   plugins: [],
 
   modules: [
-    '@nuxt/image-edge',
   ],
 
   buildModules: [
