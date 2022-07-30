@@ -12,7 +12,7 @@ jobs:
   build:
     name: Build
     runs-on: ${{ matrix.os }}
-  
+
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-      
+
       - name: Setup pnpm 📦
         id: pnpm-install
         uses: pnpm/action-setup@v2.2.2
@@ -76,7 +76,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-      
+
       - name: Setup pnpm 📦
         id: pnpm-install
         uses: pnpm/action-setup@v2.2.2
