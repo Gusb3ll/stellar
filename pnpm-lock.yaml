@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': 0.26.1
   '@commitlint/cli': 17.0.3
-  '@commitlint/config-conventional': 17.0.3
+  '@commitlint/config-conventional': 17.1.0
   '@iconify/vue': 3.2.1
   '@lhci/cli': 0.9.0
   '@nuxt/vite-builder': 3.0.0-rc.6
@@ -28,7 +28,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.26.1_yqf6kl63nyoq5megxukfnom5rm
   '@commitlint/cli': 17.0.3
-  '@commitlint/config-conventional': 17.0.3
+  '@commitlint/config-conventional': 17.1.0
   '@lhci/cli': 0.9.0
   eslint: 8.23.0
   husky: 8.0.1
@@ -464,8 +464,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional/17.0.3:
-    resolution: {integrity: sha512-HCnzTm5ATwwwzNVq5Y57poS0a1oOOcd5pc1MmBpLbGmSysc4i7F/++JuwtdFPu16sgM3H9J/j2zznRLOSGVO2A==}
+  /@commitlint/config-conventional/17.1.0:
+    resolution: {integrity: sha512-WU2p0c9/jLi8k2q2YrDV96Y8XVswQOceIQ/wyJvQxawJSCasLdRB3kUIYdNjOCJsxkpoUlV/b90ZPxp1MYZDiA==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
