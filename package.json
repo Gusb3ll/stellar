@@ -23,7 +23,7 @@
     "@iconify/vue": "3.2.1",
     "@nuxt/vite-builder": "3.0.0-rc.6",
     "nuxt": "3.0.0-rc.6",
-    "nuxt-windicss": "2.5.0",
+    "nuxt-windicss": "2.5.1",
     "vite": "2.9.15",
     "vue": "3.2.38",
     "vue-glitched-writer": "1.2.2"
